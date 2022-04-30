@@ -52,7 +52,7 @@ header .menu {
 }
 
 .presentation {
-    height: 100vh;
+    height: 450px;
     align-items: center;
     justify-content: space-between;
 }
@@ -167,7 +167,7 @@ header .menu {
 
 #planos {
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 450px;
     padding-top: 50px;
     color: #122a57;
 }
@@ -245,36 +245,3 @@ footer {
 }
 
 /* mobile */
-
-@media(max-width:992) {
-    .flex-container {
-        flex-direction: column;
-    } 
-    .presentation {
-        flex-direction: column-reverse;
-    }
-    .presentation .text-presentation {
-        width: 100%;
-    }
-    #quem-somos {
-        flex-direction: column-reverse;
-    }
-    .list-servicos {
-        flex-direction: column;
-    }
-    .item-servico img {
-        width: 50%;
-        margin: auto;
-    }
-    .list-planos {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 20px;
-    }
-    .list-planos .item-plano {
-        max-width: 90%;
-        margin: auto;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
